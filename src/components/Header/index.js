@@ -1,17 +1,21 @@
-import { HeaderContainer, FirstRow, Name, Nav, SecondRow, Social, Intro } from "./styled"
+import { HeaderContainer, FirstRowContainer, NavContainer, SecondRowContainer, Social, Intro } from "./styled"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 
 const Header = () => {
     return (
         <HeaderContainer>
-            <FirstRow>
-                <Name>Noh Ah</Name>
+            <FirstRowContainer>
+                <h2><b>Noh Ah</b></h2>
 
-                <Nav><p>quem sou</p><p>projetos</p><p>contato</p></Nav>
-            </FirstRow>
+                <NavContainer>
+                    <p>quem sou</p>
+                    <p>projetos</p>
+                    <p>contato</p>
+                </NavContainer>
+            </FirstRowContainer>
 
-            <SecondRow>
+            <SecondRowContainer>
                 <Social>
                     <FontAwesomeIcon icon={faLinkedinIn} />
                     <FontAwesomeIcon icon={faGithub} />
@@ -23,7 +27,7 @@ const Header = () => {
                     <h2>Desenvolvedor Web Full Stack</h2>
                     <p>Apaixonado por tecnologia e programação</p>
                 </Intro>
-            </SecondRow>
+            </SecondRowContainer>
         </HeaderContainer>
     )
 }

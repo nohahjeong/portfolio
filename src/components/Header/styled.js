@@ -5,49 +5,41 @@ export const HeaderContainer = styled.div`
     height: 580px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(6, 52, 71, 0.45);
+    background-color: #8fa3ac;
     color: #ffffff;
 `
 
-export const FirstRow = styled.div`
-    height: 10%;
+export const FirstRowContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 19px 32px;
 `
 
-export const Name = styled.div`
-    font-size: 1.3rem;
-    font-weight: bold;
-`
-
-export const Nav = styled.div`
+export const NavContainer = styled.div`
     width: 270px;
     display: flex;
     justify-content: space-between;
-    font-size: 1rem;
 `
 
-export const SecondRow = styled.div`
-    height: 90%;
+export const SecondRowContainer = styled.div`
+    height: 560px;
     display: flex;
     align-items: center;
-    padding: 1rem 2rem;
+    /* padding: 1rem 2rem; */
 `
 
 export const Social = styled.div`
-    width: 10%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-    font-size: 2.4rem;
+    padding-left: 32px;
+    font-size: 40px;
 `
 
 export const Intro = styled.div`
-    width: 70%;
-    padding-left: 20%;
+    padding-left: 360px;
     display: flex;
     flex-direction: column;
 `
