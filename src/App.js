@@ -1,4 +1,5 @@
 import './App.css'
+import Academic from './components/Academic'
 import Bio from './components/Bio'
 import Header from './components/Header'
 
@@ -7,6 +8,7 @@ const App = () => {
     <div>
       <Header />
       <Bio />
+      <Academic />
     </div>
   )
 }
