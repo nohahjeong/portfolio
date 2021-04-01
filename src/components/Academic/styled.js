@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const AcademicContainer = styled.div`
     width: 100vw;
-    height: 440px;
+    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
