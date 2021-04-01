@@ -6,7 +6,6 @@ export const HeaderContainer = styled.div`
     display: flex;
     flex-direction: column;
     background-color: rgba(6, 52, 71, 0.45);
-    font-family: Montserrat;
     color: #ffffff;
 `
 
@@ -51,19 +50,4 @@ export const Intro = styled.div`
     padding-left: 20%;
     display: flex;
     flex-direction: column;
-
-    h1 {
-        font-size: 3rem;
-        margin: 0.4rem;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-        font-weight: normal;
-        margin: 0.4rem;
-    }
-
-    p {
-        margin: 0.4rem;
-    }
 `
