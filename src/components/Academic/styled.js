@@ -13,16 +13,17 @@ export const AcademicContainer = styled.div`
 
 export const RowContainer = styled.div`
     display: flex;
-    gap: .8rem;
+    gap: 12px;
 `
 
 export const CourseContainer = styled.div`
-    width: 30vw;
+    width: 330px;
+    height: 270px;
     display: flex;
     flex-direction: column;
-    gap: .4rem;
+    gap: 12px;
     background-color: #ffffff;
     border-radius: 8px;
-    padding: 2rem;
+    padding: 32px;
     color: #292929;
 `
