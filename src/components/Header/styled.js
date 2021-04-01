@@ -26,7 +26,6 @@ export const SecondRowContainer = styled.div`
     height: 560px;
     display: flex;
     align-items: center;
-    /* padding: 1rem 2rem; */
 `
 
 export const Social = styled.div`
@@ -39,7 +38,7 @@ export const Social = styled.div`
 `
 
 export const Intro = styled.div`
-    padding-left: 360px;
+    padding-left: 460px;
     display: flex;
     flex-direction: column;
 `
