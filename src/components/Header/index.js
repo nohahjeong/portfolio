@@ -9,16 +9,20 @@ const Header = () => {
                 <h2><b>Noh Ah</b></h2>
 
                 <NavContainer>
-                    <p>quem sou</p>
-                    <p>projetos</p>
-                    <p>contato</p>
+                    <a href='#bio'>quem sou</a>
+                    {/* <a>projetos</a> */}
+                    <a href='#contact'>contato</a>
                 </NavContainer>
             </FirstRowContainer>
 
             <SecondRowContainer>
                 <Social>
-                    <FontAwesomeIcon icon={faLinkedinIn} />
-                    <FontAwesomeIcon icon={faGithub} />
+                    <a href='https://www.linkedin.com/in/noh-ah-jeong/' target='_blank'>
+                        <FontAwesomeIcon icon={faLinkedinIn} color='white' />
+                    </a>
+                    <a href='https://github.com/nohahjeong' target='_blank'>
+                        <FontAwesomeIcon icon={faGithub} color='white' />
+                    </a>
                 </Social>
 
                 <Intro>

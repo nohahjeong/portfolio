@@ -3,7 +3,7 @@ import { BioContainer, Row, BioText } from './styled'
 
 const Bio = () => {
     return (
-        <BioContainer>
+        <BioContainer id='bio'>
             <Row>
                 <img src={photo} alt='photo' class='photo' />
 

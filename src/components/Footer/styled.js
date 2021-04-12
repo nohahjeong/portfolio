@@ -7,5 +7,4 @@ export const FooterContainer = styled.div`
     align-items: center;
     background-color: #4eaccf;
     color: #ffffff;
-    padding-left: 60px;
 `
