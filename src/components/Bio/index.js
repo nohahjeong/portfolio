@@ -5,7 +5,7 @@ const Bio = () => {
     return (
         <BioContainer id='bio'>
             <Row>
-                <img src={photo} alt='photo' class='photo' />
+                <img src={photo} alt='profilePhoto' class='photo' />
 
                 <BioText>
                     <h1>Sobre mim</h1>

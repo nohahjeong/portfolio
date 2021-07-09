@@ -16,10 +16,10 @@ const Contact = () => {
                     Celular: (11) 97674-1251
                 </p>
                 <SocialContainer>
-                    <a href='https://www.linkedin.com/in/noh-ah-jeong/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/noh-ah-jeong/' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faLinkedinIn} color='white' />
                     </a>
-                    <a href='https://github.com/nohahjeong' target='_blank'>
+                    <a href='https://github.com/nohahjeong' target='_blank' rel="noreferrer">
                         <FontAwesomeIcon icon={faGithub} color='white' />
                     </a>
                 </SocialContainer>
